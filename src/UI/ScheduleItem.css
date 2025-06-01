@@ -1,5 +1,5 @@
 .main-card{
-    border: 2px solid rgba(128, 128, 128, 0.379);
+    border: 1px solid rgba(128, 128, 128, 0.379);
     /* width: 100%; */
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
@@ -31,8 +31,8 @@
     font-size: 1rem;
     width: 100%;
     color: rgb(71, 68, 68);
-    border-bottom: 2px solid rgba(128, 128, 128, 0.205);
-    padding: 5px 10px 10px 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.205);
+    padding: 10px;
     display: flex;
     gap: 5px;
 }
