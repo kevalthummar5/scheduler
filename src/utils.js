@@ -165,7 +165,7 @@ function getEndDetails(item) {
   if (end_status === 'never') {
     return 'Never End';
   } else if (end_status === 'on') {
-    return `Ends on ${formatDate(end_on_day)}`;
+    return `${formatDate(end_on_day)}`;
   } else if (end_status === 'after') {
     // Extract number from "1 occurrence" string
     const occurrences = end_on_after.split(' ')[0];
